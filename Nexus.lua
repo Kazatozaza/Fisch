@@ -224,7 +224,7 @@ local function moveToMonster(character, monster)
         if not bodyVelocity then
             bodyVelocity = Instance.new("BodyPosition")
             bodyVelocity.MaxForce = Vector3.new(500000, 500000, 500000)
-            bodyVelocity.P = 5000
+            bodyVelocity.P = 10000
             bodyVelocity.D = 1000
             bodyVelocity.Parent = humanoidRootPart
         end
@@ -397,7 +397,7 @@ local function moveToMonster(character, monster)
         if not bodyVelocity then
             bodyVelocity = Instance.new("BodyPosition")
             bodyVelocity.MaxForce = Vector3.new(500000, 500000, 500000)
-            bodyVelocity.P = 5000
+            bodyVelocity.P = 10000
             bodyVelocity.D = 1000
             bodyVelocity.Parent = humanoidRootPart
         end
@@ -566,7 +566,7 @@ local function moveToMonster(character, monster)
         if not bodyVelocity then
             bodyVelocity = Instance.new("BodyPosition")
             bodyVelocity.MaxForce = Vector3.new(500000, 500000, 500000)
-            bodyVelocity.P = 5000
+            bodyVelocity.P = 10000
             bodyVelocity.D = 1000
             bodyVelocity.Parent = humanoidRootPart
         end
@@ -735,7 +735,7 @@ local function moveToMonster(character, monster)
         if not bodyVelocity then
             bodyVelocity = Instance.new("BodyPosition")
             bodyVelocity.MaxForce = Vector3.new(500000, 500000, 500000)
-            bodyVelocity.P = 5000
+            bodyVelocity.P = 10000
             bodyVelocity.D = 1000
             bodyVelocity.Parent = humanoidRootPart
         end
@@ -904,7 +904,7 @@ local function moveToMonster(character, monster)
         if not bodyVelocity then
             bodyVelocity = Instance.new("BodyPosition")
             bodyVelocity.MaxForce = Vector3.new(500000, 500000, 500000)
-            bodyVelocity.P = 5000
+            bodyVelocity.P = 10000
             bodyVelocity.D = 1000
             bodyVelocity.Parent = humanoidRootPart
         end
